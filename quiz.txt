@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <header class="header py-3 bg-warning text-center ">
+        <div class="container">
+            <h1 class="text-light display-1 fw-bold my-4">Quiz</h1>
+        </div>
+    </header>
+
+    <div class="result py-4 d-none bg-light text-center">
+        <div class="container lead">
+            <p>
+                Você acertou
+                <span class="text-primary display-4 p-3">0%</span>do quiz
+            </p>
+        </div>
+    </div>
+
+    <section class="section  py-4 bg-success">
+        <div class="container">
+            <h2 class="my-5">Perguntas Biblicas:</h2>
+            <form class="form-quiz text-light">
+                <div class="my-5">
+                    <p class="lead font-weight-normal">1 - Quem foi tomado por Deus e nunca mais visto?</p>
+                    <div class="form-check my-2 text-dark-50">
+                        <label class="form-label-check">
+                            <input type="radio" name="inputQ1" value="D" checked>
+                            Enoque
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-dark-50">
+                        <label class="form-label-check">
+                            <input type="radio" name="inputQ1" value="B" checked>
+                            Moises
+                        </label>
+                    </div>
+
+                    <div class="form-check my-2 text-dark-50">
+                        <label class="form-label-check">
+                            <input type="radio" name="inputQ1" value="C" checked>
+                            Abraão
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-dark-50">
+                        <label class="form-label-check">
+                            <input type="radio" name="inputQ1" value="A" checked>
+                            Priscila
+                        </label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">2 - Qual montanha ocorreu a transfiguração de Cristo?</p>
+                    <div class="form-check my-2 text-dark-50">
+                        <label class="form-label-check">
+                            <input type="radio" name="inputQ2" value="D" checked>
+                            Monte Sinai
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-dark-50">
+                        <label class="form-label-check">
+                            <input type="radio" name="inputQ2" value="B" checked>
+                            Monte Hermon
+                        </label>
+                    </div>
+
+                    <div class="form-check my-2 text-dark-50">
+                        <label class="form-label-check">
+                            <input type="radio" name="inputQ2" value="C" checked>
+                            Monte das Oliveiras
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-dark-50">
+                        <label class="form-label-check">
+                            <input type="radio" name="inputQ2" value="A" checked>
+                            Monte Carmelo
+                        </label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">3 - Quais personagens biblicos apareceram conversando com cristo
+                        na transfiguração?</p>
+                    <div class="form-check my-2">
+                        <label class="form-label-check">
+                            <input type="radio" name="inputQ3" value="D" checked>
+                            Enoque e Moises
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <label class="form-label-check">
+                            <input type="radio" name="inputQ3" value="B" checked>
+                            Moises e Elias
+                        </label>
+                    </div>
+
+                    <div class="form-check my-2">
+                        <label class="form-label-check">
+                            <input type="radio" name="inputQ3" value="C" checked>
+                            Enoque e Thiago
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <label class="form-label-check">
+                            <input type="radio" name="inputQ3" value="A" checked>
+                            Moises e João
+                        </label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">4 - Qual profeta Deus revelou o final dos tempos ?</p>
+                    <div class="form-check my-2">
+                        <label class="form-label-check">
+                            <input type="radio" name="inputQ4" value="D" checked>
+                            Isaias
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <label class="form-label-check">
+                            <input type="radio" name="inputQ4" value="B" checked>
+                            Daniel
+                        </label>
+                    </div>
+
+                    <div class="form-check my-2">
+                        <label class="form-label-check">
+                            <input type="radio" name="inputQ4" value="C" checked>
+                            Malaquias
+                        </label>
+                    </div>
+                    <div class="form-check my-2">
+                        <label class="form-label-check">
+                            <input type="radio" name="inputQ4" value="A" checked>
+                            Habacuque
+                        </label>
+                    </div>
+
+                </div>
+                <div class="text-center">
+                    <button class="btn bg-primary text-light">Enviar</button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
+
+
+
+javascript
+
+/*
+Este exercício será um pouquinho diferente dos anteriores.
+
+Seu desafio é desenvolver uma versão do quiz que:
+
+- Aborda um tema diferente (não pode ser de filmes);
+- Tem um tema de cores diferente do que foi apresentado na aula;
+- Exibe na tela a pontuação que o usuário fez. Não há certo ou errado, apenas faça. Essa exibição de pontos é uma das implementações que faremos na próxima aula =D
+
+Independente se você já fez o quiz dos filmes enquanto acompanhava a aula, busque fazer esse exercício sem rever partes da aula.
+
+É importante que a sua versão do quiz seja feita apenas com o conteúdo que vimos até aqui.
+*/
+
+const form = document.querySelector(".form-quiz");
+const resultFine = document.querySelector(".result");
+
+const currectResp = ["D", "B", "C", "A"];
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+  let score = 0;
+  const questionAnswers = [
+    form.inputQ1.value,
+    form.inputQ2.value,
+    form.inputQ3.value,
+    form.inputQ4.value,
+  ];
+  questionAnswers.forEach((questionAnswer, index) => {
+    if (questionAnswer === currectResp[index]) {
+      score += 25;
+    }
+  });
+  scrollTo(0, 0);
+  resultFine.querySelector("span").textContent = `${score}%`;
+  resultFine.classList.remove("d-none");
+
+  let counter = 0;
+  const timer = setInterval(() => {
+    if (counter === score) {
+      clearInterval(timer);
+    }
+    fineResult.querySelector("span").textContent = `${counter}%`;
+    counter++;
+  }, 10000);
+});
